@@ -6,7 +6,7 @@ hosts every year.
 
 ## Installation
 
-``
+```
 cd /var/www/html/
 git clone https://github.com/andrewwippler/SimpleEventAwards.git
 cd SimpleEventAwards
@@ -16,7 +16,7 @@ touch database/database.sqlite
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
-``
+```
 Point your web server's docroot to /var/www/html/SimpleEventAwards/public
 or
 You can run `php artisan serve` and navigate to http://localhost:8000
